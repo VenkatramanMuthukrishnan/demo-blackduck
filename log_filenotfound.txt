@@ -1,0 +1,11 @@
+/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65452:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/vmuthukr/development/mdmn/demo-blackduck/target/classes:/Users/vmuthukr/.m2/repository/com/parent/parent-demo/3.0.3/parent-demo-3.0.3.jar:/Users/vmuthukr/.m2/repository/com/demo/common-demo/1.0.3/common-demo-1.0.3.jar com.demo.Demo
+Exception in thread "main" java.lang.NoClassDefFoundError: org/apache/avro/AvroTypeException
+	at com.parent.DemoParent.run(DemoParent.java:9)
+	at com.demo.Demo.main(Demo.java:8)
+Caused by: java.lang.ClassNotFoundException: org.apache.avro.AvroTypeException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 2 more
+
+Process finished with exit code 1

@@ -1,0 +1,25 @@
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ---------------------------< com.demo:demo >----------------------------
+[INFO] Building demo 3.0.2
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ demo ---
+[INFO] com.demo:demo:jar:3.0.2
+[INFO] +- org.apache.avro:avro:jar:1.12.0:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-core:jar:2.17.2:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.17.2:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.17.2:compile
+[INFO] |  +- org.apache.commons:commons-compress:jar:1.26.2:compile
+[INFO] |  |  +- commons-codec:commons-codec:jar:1.17.0:compile
+[INFO] |  |  +- commons-io:commons-io:jar:2.16.1:compile
+[INFO] |  |  \- org.apache.commons:commons-lang3:jar:3.14.0:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:2.0.13:compile
+[INFO] \- com.parent:parent-demo:jar:3.0.3:compile
+[INFO]    \- com.demo:common-demo:jar:1.0.3:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.946 s
+[INFO] Finished at: 2024-11-21T13:49:06+05:30
+[INFO] ------------------------------------------------------------------------
